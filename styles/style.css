@@ -55,7 +55,7 @@ body {
     background: white;
     border: none;
     font-size: 1rem;
-    line-height: 150%;
+    line-height: 1.5rem;
     font-weight: 500;
     color: var(--tertiary-color);
     padding: 10px 18px 10px 18px;
@@ -69,15 +69,12 @@ body {
     border-radius: 8px;
 }
 
-.main {
-    padding: 96px 0;
-}
-
 .main__header {
+    padding: 96px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 1rem;
 }
 
 .main__about {
@@ -89,7 +86,7 @@ body {
 .main__title {
     font-size: 3rem;
     font-weight: 600;
-    line-height: 125%;
+    line-height: 1.5rem;
     color: var(--secondary-color);
     letter-spacing: -0.02em;
 }
@@ -99,6 +96,36 @@ body {
     font-size: 1.25rem;
     text-align: center;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 1.5rem;
+    color: var(--tertiary-color);
+}
+
+.main__metrics {
+    padding: 96px 0;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 0 5rem;
+}
+
+.main__metric-title {
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+    letter-spacing: -0.02em;
+    color: var(--primary-color);
+}
+
+.main__metric-subtitle {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.main__metric-text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
     color: var(--tertiary-color);
 }
