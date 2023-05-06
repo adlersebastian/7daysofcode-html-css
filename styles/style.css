@@ -101,7 +101,6 @@ body {
 }
 
 .main__metrics {
-    padding: 96px 0;
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -164,4 +163,44 @@ body {
 
 .main__text--w100 {
     width: 100%;
+}
+
+.main__job-offers {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 65%;
+    gap: 32px;
+}
+
+.main__job-area {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.main__job-offer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.main__job-title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.main__job-info {
+    display: flex;
+    gap: 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--tertiary-color);
 }
