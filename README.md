@@ -1,7 +1,7 @@
 # HTML & CSS #7DaysOfCode
 ![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
 
-🇧🇷 Projeto de página destinada a novas contratações de uma empresa de TI do #7DaysOfCode da Alura 
+🇧🇷 Projeto de página destinada a novas contratações de uma empresa de TI do #7DaysOfCode da Alura \n
 🇬🇧 Alura's #7DaysOfCode page design for new hires of an IT company
 
 Almost finished!
