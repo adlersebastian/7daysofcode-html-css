@@ -1,206 +1,293 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
 :root {
-    --primary-color: #8E2424;
-    --secondary-color: #101828;
-    --tertiary-color: #667085;
+  --primary-color: #8e2424;
+  --secondary-color: #101828;
+  --tertiary-color: #667085;
 
-    --main-ff: 'Inter', sans-serif;
+  --main-ff: "Inter", sans-serif;
 }
 
 * {
-    text-decoration: none;
-    font-family: var(--main-ff);
+  text-decoration: none;
+  font-family: var(--main-ff);
 }
 
 body {
-    background-color: white;
+  background-color: white;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    padding: 18px 32px 18px 32px;
+  display: flex;
+  justify-content: space-around;
+  padding: 18px 32px 18px 32px;
 }
 
 .navbar__logo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 1.125rem;
-    font-weight: 500;
-    color: #3A404E;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #3a404e;
 }
 
 .navbar__menu {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-    padding: 0 20% 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 0 20% 0 8px;
 }
 
 .navbar__link {
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--tertiary-color);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--tertiary-color);
 }
 
 .navbar__auth {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .navbar__btn {
-    background: white;
-    border: none;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-weight: 500;
-    color: var(--tertiary-color);
-    padding: 10px 18px 10px 18px;
+  background: white;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--tertiary-color);
+  padding: 10px 18px 10px 18px;
 }
 
 .navbar__btn--hl {
-    background: var(--primary-color);
-    color: white;
-    border: 1px solid var(--primary-color);
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
+  background: var(--primary-color);
+  color: white;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
 }
 
 .main__header {
-    padding: 96px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+  padding: 96px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .main__about {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
 }
 
 .main__title {
-    font-size: 3rem;
-    font-weight: 600;
-    line-height: 1.5rem;
-    color: var(--secondary-color);
-    letter-spacing: -0.02em;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: var(--secondary-color);
+  letter-spacing: -0.02em;
 }
 
 .main__text {
-    width: 50%;
-    font-size: 1.25rem;
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.5rem;
-    color: var(--tertiary-color);
+  width: 50%;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: var(--tertiary-color);
 }
 
 .main__metrics {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    padding: 0 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 96px 5rem 0 5rem;
 }
 
 .main__metric-title {
-    font-size: 3.75rem;
-    font-weight: 600;
-    line-height: 1.2rem;
-    letter-spacing: -0.02em;
-    color: var(--primary-color);
+  font-size: 3.75rem;
+  font-weight: 600;
+  line-height: 1.2rem;
+  letter-spacing: -0.02em;
+  color: var(--primary-color);
 }
 
 .main__metric-subtitle {
-    font-size: 1.125rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    color: var(--secondary-color);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--secondary-color);
 }
 
 .main__metric-text {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    color: var(--tertiary-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: var(--tertiary-color);
 }
 
 .main__jobs {
-    padding: 96px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 64px;
+  padding: 96px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
 }
 
 .main__vacancies {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .main__about--hl {
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: var(--primary-color);
-    background: rgba(142, 36, 36, 0.05);
-    border-radius: 16px;
-    padding: 4px 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  background: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  padding: 4px 12px;
 }
+
 .main__title--sm {
-    font-size: 2.25rem;
-    font-weight: 600;
-    line-height: 1.5rem;
-    color: var(--secondary-color);
-    letter-spacing: -0.02em;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: var(--secondary-color);
+  letter-spacing: -0.02em;
 }
 
 .main__text--w100 {
-    width: 100%;
+  width: 100%;
 }
 
 .main__job-offers {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 65%;
-    gap: 32px;
+  padding: 64px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 65%;
+  gap: 32px;
 }
 
 .main__job-area {
-    font-size: 1.25rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    color: var(--secondary-color);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--secondary-color);
 }
 
 .main__job-offer {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    padding: 24px;
-    border: 1px solid #EAECF0;
-    border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
 }
 
 .main__job-title {
-    font-size: 1.125rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    color: var(--secondary-color);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--secondary-color);
 }
 
 .main__job-info {
-    display: flex;
-    gap: 24px;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    color: var(--tertiary-color);
+  display: flex;
+  gap: 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--tertiary-color);
+}
+
+.main__depositions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 0;
+}
+
+.main__deposition {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+  width: 85%;
+  background-color: rgba(196, 25, 25, 0.03);
+}
+
+.main__deposition-title {
+  font-size: 2.25rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  letter-spacing: -0.02em;
+}
+
+.main__profile {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.main__profile-name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.main__profile-desc {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--tertiary-color);
+}
+
+.footer {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  background-color: #f9fafb;
+}
+
+.footer__input {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer__input-field {
+  padding: 12px 14px 12px 16px;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 25vw;
+}
+
+.footer__input-btn {
+  background: var(--primary-color);
+  color: white;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  padding: 12px 20px;
+}
+
+.footer__copyright {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--tertiary-color);
 }
